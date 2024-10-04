@@ -3,6 +3,7 @@ import Content from './components/content';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import NavigationBar from './components/Navbar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   let x = 5;
