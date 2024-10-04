@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
         asdf{}
+        <h2>It is {new Date().toLocaleDateString()}</h2>
     </div>
   );
 }
